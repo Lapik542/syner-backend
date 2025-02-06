@@ -22,6 +22,10 @@ const userSchema = new mongoose.Schema(
       type: String,
       required: false,
     },
+    directive: {
+      type: String,
+      required: true
+    },
     done: {
       type: Boolean,
       default: false,
